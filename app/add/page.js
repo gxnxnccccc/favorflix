@@ -9,7 +9,7 @@ import Image from 'next/image';
 import Sidebar from '../../components/Sidebar';
 import StarRating from '../../components/StarRating';
 import { MdMovieEdit } from "react-icons/md";
-z
+
 export default function Page() {
   const [isBurger, setIsBurger] = useState(false);
   const [starRating, setStarRating] = useState(0);

@@ -48,6 +48,14 @@ const Sidebar = ({ isBurger, setIsBurger }) => {
                   My Collection
                 </span>
             </li>
+            <li 
+              onClick={() => router.push('/test')}
+              className='p-2 bg-black rounded-lg inline-flex gap-2 items-center shadow-md'>
+                <MdMovieFilter className='text-2xl'/>
+                <span className={isBurger ? 'hidden py-10' : 'inline'}>
+                  API Testing
+                </span>
+            </li>
           </ul>
         </nav>
       </aside>
